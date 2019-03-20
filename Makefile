@@ -1,4 +1,4 @@
-all: libtest.a libtest.so static_main 
+all: libtest.a static_main 
 
 objects = test1.o test2.o test3.o
 dir = ${shell pwd}
